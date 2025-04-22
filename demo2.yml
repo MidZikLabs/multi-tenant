@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo
+
+server:
+  port: 8888
+
+custom:
+  message: "Hello from remote config! Here is a message from the second file that is (demo2.yml)"
