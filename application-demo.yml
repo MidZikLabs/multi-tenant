@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: demo
-
-server:
-  port: 8888
-
-custom:
-  message: "Hello from remote config!"
