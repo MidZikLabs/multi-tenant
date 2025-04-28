@@ -1,13 +1,13 @@
 spring:
   authentication:
     datasource:
-      url: jdbc:mysql://mysql:3306/midzik_authentication_microservice?allowPublicKeyRetrieval=true&useSSL=false
+      url: jdbc:mysql://localhost:3306/midzik_authentication_microservice?allowPublicKeyRetrieval=true&useSSL=false
       username: midzik_admin
       password: password
       driver-class-name: com.mysql.cj.jdbc.Driver
   advertisement:
     datasource:
-      url: jdbc:mysql://mysql:3306/midzik_advertisement_microservice?allowPublicKeyRetrieval=true&useSSL=false
+      url: jdbc:mysql://localhost:3306/midzik_advertisement_microservice?allowPublicKeyRetrieval=true&useSSL=false
       username: midzik_admin
       password: password
       driver-class-name: com.mysql.cj.jdbc.Driver
